@@ -30,10 +30,24 @@ import '@mistong/eui/dist/index.css';
           <h2>Demo 组件</h2>
           <p>可用于 EUI 组件 demo 开发，统一风格。</p>
           <h3>代码演示</h3>
-          <Code sourceCode={codeSmall} buttonText="小尺寸">
+          <Code sourceCode={codeSmall}>
             我是 demo 组件使用的源码演示。<br /><br />
             在 demo 组件内可以快速使用 h2、h3、p、ul、ol、table 等 常用 html 标签，无需书写额外样式
           </Code>
+          <h3>UL 示例</h3>
+          <ul>
+            <li>问问自己：”最坏的可能是什么？“</li>
+            <li>万一发生了最坏情况，做好接受它的准备。</li>
+            <li>冷静地着手改善最坏情况。</li>
+          </ul>
+          <h3>OL 示例</h3>
+          <ol>
+            <li>1. 问问自己：”最坏的可能是什么？“</li>
+            <li>2. 万一发生了最坏情况，做好接受它的准备。</li>
+            <li>3. 冷静地着手改善最坏情况。</li>
+          </ol>
+          <h3>P 段落示例</h3>
+          <p>我是一段文字，可以写很多内容。</p>
           <h3>API</h3>
           <table>
             <thead>

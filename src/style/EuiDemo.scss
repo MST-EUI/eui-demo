@@ -45,7 +45,7 @@ $prefix: 'eui-demo';
         padding: 10px;
       }
     }
-    ul {
+    ul, ol {
       li {
         color: #666;
         font-size: 14px;
@@ -53,6 +53,10 @@ $prefix: 'eui-demo';
         margin: 10px 0 10px 20px;
         padding-left: 20px;
         position: relative;
+      }
+    }
+    ul {
+      li {
         &:before {
           -webkit-box-sizing: border-box;
           border: 1px solid #666;
@@ -66,6 +70,11 @@ $prefix: 'eui-demo';
           top: 0;
           width: 6px;
         }
+      }
+    }
+    ol {
+      li {
+        padding-left: 0;
       }
     }
   }
