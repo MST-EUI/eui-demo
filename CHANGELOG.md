@@ -1,3 +1,13 @@
+<a name="0.1.3"></a>
+## [0.1.3](https://github.com/MST-EUI/eui-demo/compare/v0.1.2...v0.1.3) (2018-10-19)
+
+
+### Features
+
+* add font-size for h* default ([34a874a](https://github.com/MST-EUI/eui-demo/commit/34a874a))
+
+
+
 <a name="0.1.2"></a>
 ## [0.1.2](https://github.com/MST-EUI/eui-demo/compare/v0.1.1...v0.1.2) (2018-10-16)
 
