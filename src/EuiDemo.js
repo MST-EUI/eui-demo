@@ -1,11 +1,8 @@
 import React from 'react';
 import classnames from 'classnames';
+import PropTypes from 'prop-types';
 
-import i18n from './i18n';
 import './style/index.scss';
-
-const { PropTypes } = React;
-const i18nDefault = 'zh-cn';
 
 export default class EuiDemo extends React.Component {
   static displayName = 'eui-demo';
